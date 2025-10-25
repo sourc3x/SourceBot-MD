@@ -1,82 +1,68 @@
-🌌 SOURCEBOT-MD
-╭───────────────────────────────╮
-│ 🤖  SOURCEBOT - MULTI DEVICE │
-│      Power. Speed. Control.   │
-╰───────────────────────────────╯
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Baileys](https://img.shields.io/badge/Baileys-MD-blue?style=flat)
+![Platform](https://img.shields.io/badge/Platform-WhatsApp-green?style=flat&logo=whatsapp)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-<div align="center"> <img src="https://i.ibb.co/vPSsZyy/sourcebot-banner.png" width="550" alt="SourceBot Logo"> </div>
-⚡ “El poder de la automatización en tu chat.”
+# 🌌 SOURCEBOT-MD  
+### 🤖 Un bot moderno para WhatsApp — rápido, estable y lleno de comandos útiles
 
-SourceBot-MD es un bot de WhatsApp moderno, rápido y modular, desarrollado en Node.js con la librería Baileys-MD, diseñado para administración de grupos, creación de contenido y automatización inteligente.
+![Banner](https://i.ibb.co/vPSsZyy/sourcebot-banner.png)
 
-🧠 CARACTERÍSTICAS
-✅ Conexión por QR o Código de Emparejamiento
-✅ Totalmente modular (lib y comandos separados)
-✅ Configuración editable desde settings.js
-✅ Compatible con Termux, VS Code, y hosting en la nube
-✅ Soporte para stickers, menciones y multimedia
-✅ Sistema seguro de sesiones (Multi-Device)
+---
 
-🎮 COMANDOS DESTACADOS
-Comando	Descripción
-!ping	Prueba de conexión
-!kick @usuario	Expulsa miembros (solo admin)
-!mute / !unmute	Silencia o reactiva el grupo
-!vaciar	Expulsa a todos los no-admins
-!tagall	Menciona a todos
-!sticker	Convierte imágenes o videos en sticker
-!tts <texto>	Convierte texto a voz
-!info	Muestra datos del bot
-!menu	Lista de comandos disponibles
-⚙️ INSTALACIÓN LOCAL (VS CODE o Termux)
-git clone https://github.com/tuusuario/SourceBot-MD
-cd SourceBot-MD
-npm install
-npm start
+## 🧠 **Acerca del Proyecto**
+**SourceBot-MD** es un bot de WhatsApp basado en Baileys Multi-Device, optimizado para velocidad, simplicidad y personalización.  
+Fue creado con la idea de ofrecer una experiencia moderna y potente, integrando comandos útiles para la administración de grupos, diversión, y herramientas de utilidad general.  
+
+> 💬 Compatible con WhatsApp Multi-Device Beta  
+> ⚡ Fácil de configurar, rápido de ejecutar y 100% gratuito  
+
+---
+
+## 💥 **Características Principales**
+✅ Soporte Multi-Device  
+✅ Comandos de administración (ban, mute, kick, info, etc.)  
+✅ Descarga de multimedia (videos, imágenes, audio)  
+✅ Mensajes automáticos y respuestas inteligentes  
+✅ Personalización total del código  
+✅ Compatibilidad con Termux, Replit, Render, Railway y VPS  
+
+---
+
+## ⚙️ **Comandos Disponibles**
+
+### 🔧 Administración
+| Comando | Descripción |
+|----------|--------------|
+| `.ping` | Comprueba si el bot está activo |
+| `.kick @usuario` | Expulsa a un miembro del grupo |
+| `.mute` | Silencia el grupo temporalmente |
+| `.unmute` | Quita el modo silencio |
+| `.vaciar` | Expulsa a todos los miembros del grupo (excepto admins) |
+
+### 💬 Utilidad
+| Comando | Descripción |
+|----------|--------------|
+| `.menu` | Muestra el menú principal del bot |
+| `.help` | Lista todos los comandos |
+| `.info` | Muestra información del sistema |
+| `.sticker` | Convierte una imagen/video en sticker |
+| `.toimg` | Convierte un sticker a imagen |
+
+### 🎉 Diversión
+| Comando | Descripción |
+|----------|--------------|
+| `.meme` | Envía un meme aleatorio |
+| `.joke` | Cuenta un chiste |
+| `.say <texto>` | Repite lo que digas |
+
+---
+
+## 👑 **Creador**
+**Source Dev**  
+📘 GitHub: [Sourc3x](https://github.com/Sourc3x)  
+📞 WhatsApp: +57 14263356  
 
 
-Durante el inicio verás:
 
-==============================
-🤖 SourceBot - by Source Dev
-==============================
-[1] Escanear código QR
-[2] Código de emparejamiento
-👉 Escribe 1 o 2:
-
-
-📱 Escanea el QR o ingresa el código de emparejamiento desde
-WhatsApp → Dispositivos vinculados → Vincular nuevo dispositivo
-
-📂 ESTRUCTURA DEL PROYECTO
-SourceBot/
-├── index.js           # Arranque principal del bot
-├── settings.js        # Configuración general (nombre, prefijo, logo)
-├── main.js            # Gestión de eventos y comandos
-├── lib/               # Librerías (funciones internas)
-│   ├── exif.js
-│   └── myfunc.js
-├── media/             # Logo e imágenes
-├── session/           # Datos de sesión (no subir)
-└── package.json       # Dependencias y scripts
-
-☁️ HOSTINGS GRATUITOS COMPATIBLES
-Hosting	Descripción
-Render	Sencillo, con GitHub auto-deploy
-Railway.app	Ideal para bots activos 24/7
-Koyeb	Free-tier con auto-restart
-Replit	Perfecto para desarrollo y pruebas
-👤 Creador
-
-💻 Source Dev
-📞 +57 1426 3356
-🌐 Proyecto libre, educativo y adaptable
-🧩 “Si puedes imaginarlo, SourceBot puede hacerlo.”
-
-<div align="center">
-╭──────────────────────────────╮
-│   Gracias por usar SourceBot │
-│   ⭐ ¡Apóyalo con una estrella! ⭐ │
-╰──────────────────────────────╯
-
-</div>
