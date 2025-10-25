@@ -7,8 +7,6 @@
 # 🌌 SOURCEBOT-MD  
 ### 🤖 Un bot moderno para WhatsApp — rápido, estable y lleno de comandos útiles
 
-![Banner](https://i.ibb.co/vPSsZyy/sourcebot-banner.png)
-
 ---
 
 ## 🧠 **Acerca del Proyecto**
